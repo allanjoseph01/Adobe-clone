@@ -365,8 +365,8 @@ div>div>p{
 }
 .copy{
     font-size: 13px;
-    width: 220px;
-    margin-left: 270px;
+    width: 230px;
+    margin-left: 260px;
 }
 .f{
     font-size: 13px;
@@ -374,4 +374,8 @@ div>div>p{
 }
 .line2>a:hover{
     color: rgb(0, 128, 255);
+}
+button:hover{
+    background-color: black;
+    color: #FFFFFF;
 }
