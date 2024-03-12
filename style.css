@@ -9,6 +9,7 @@ nav{
     background-color: #FFFFFF;
     height: 60px;
     width: 100%;
+ 
 }
 *{
     padding: 0px;
@@ -77,10 +78,13 @@ div>div>p{
     gap: 15px;
 }
 .sticky{
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
+   
+   
 }
+
 .card2{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     /* transition: 0.3s; */
@@ -125,7 +129,7 @@ div>div>p{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin-left: 300px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 .cloudItems>button{
@@ -136,7 +140,11 @@ div>div>p{
 .cloudItems>button>a:hover{
     background-color: black;
     color: #FFFFFF;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+}
+button:hover{
+        background-color: black;
+        color: #FFFFFF;
 }
 .cardline1{
     display: flex;
@@ -375,7 +383,7 @@ div>div>p{
 .line2>a:hover{
     color: rgb(0, 128, 255);
 }
-button:hover{
-    background-color: black;
-    color: #FFFFFF;
+button{
+    height: 40px;
+    width: 200px;
 }
