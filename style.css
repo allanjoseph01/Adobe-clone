@@ -265,7 +265,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .term1>a{
     font-size: 13px;
